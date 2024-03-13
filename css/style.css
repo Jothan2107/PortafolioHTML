@@ -84,7 +84,7 @@ ocuparán igualmente el espacio disponible en el contenedor.
 
 .column-2 {
   margin-left: 1.5rem;
-}
+ }
 
 /* position: relative posiciona un elemento en relación con
 su posición original en el flujo del documento. */
@@ -106,6 +106,7 @@ diferente a static (generalmente relative, absolute, o fixed). */
 .points {
   opacity: 0.3;
   position: absolute;
+  opacity: 20%;
 }
 
 /* Cuando trabajas con diseños web y elementos que se superponen,
@@ -316,7 +317,7 @@ header .points2 {
 .cards {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; /*Sirve para que los elementos con display flex ocupen varias lineas*/
+  /*flex-wrap: wrap; /*Sirve para que los elementos con display flex ocupen varias lineas*/
   width: 100%;
 }
 
