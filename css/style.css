@@ -7,7 +7,7 @@
   --dark-two: #7a7a7a;
   --main-color: #07C7F2;
   --secondary-color: #05DBF2;
-  --light-one: #fff;
+  --light-one: #F0F1F2;
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
 }
@@ -34,7 +34,7 @@ button,
 input,
 textarea {
   font-family: "Poppins", sans-serif;
-  background-color: #F0F1F2;
+  background-color: var(--light-one);
 }
 
 a {
