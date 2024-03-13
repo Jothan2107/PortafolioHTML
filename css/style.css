@@ -6,7 +6,7 @@
   --dark-one: #333;
   --dark-two: #7a7a7a;
   --main-color: #07C7F2;
-  --secondary-color: #47008b;
+  --secondary-color: #05DBF2;
   --light-one: #fff;
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
@@ -226,7 +226,10 @@ nav .container {
   color: var(--dark-one);
   text-decoration: none;
 }
-
+span {
+  color: var(--main-color);
+  -moz-text-decoration-style: solid;
+}
 .logo span {
   color: var(--main-color);
 }
