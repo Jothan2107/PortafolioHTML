@@ -14,8 +14,9 @@
   </head>
   <body>
     <main>
-      <!--ENCABEZADO-->
+      <!-- Encabezado -->
       <header>
+        <!-- Barra de navegación principal -->
         <nav>
           <div class="container">
             <div class="logo">
@@ -52,43 +53,394 @@
                 </li>
               </ul>
             </div>
-            <!-- Menu movil-->
+
+            <!-- Menu hamburguesa para agregar en movil -->
             <div class="hamburger-menu">
               <i class="fas fa-bars fa-lg"></i>
             </div>
           </div>
         </nav>
-        <!--Contenido-->
+
+        <!-- Contenido para el header -->
         <div class="header-content">
           <div class="container grid-2">
             <div class="column-1">
-              <!--Título-->
-              <h1 class="header-title">Juan Carlos <span>Narvaez</span></h1>
-              <p class="text">Lorem ipsum dolor sit amet, 
-                consectetur adipisicing elit. Saepe et quae cumque, 
-                blanditiis cum quis atque minima ipsa! 
-                Voluptatem pariatur amet harum sapiente corrupti consequuntur itaque minus expedita facilis et.
+              <!-- Titulo principal -->
+              <h1 class="header-title">JUAN CARLOS<span>NARVAEZ</span></h1>
+              <p class="text">
+                Hola, JUAN CARLOS NARVAEZ, diseñador y desarrollador web. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Totam magni
+                sit hic!
               </p>
-              <!--Descargar CV-->
+              <!-- Boton de descarga de CV -->
               <a download href="#" target="_blank">
                 <button class="btn">Descargar CV</button>
               </a>
             </div>
-            <!--Imageb principal-->
+            <!-- Imagen principal para el header -->
             <div class="column-2 image">
               <img
                 src="./img/shapes/points2.svg"
                 class="points points2"
                 alt=""
               />
-              <img src="./img/OC3J9G0.png" class="img-element z-index" alt="" />
+              <img src="./img/6987296.jpg" class="img-element z-index" alt="" />
             </div>
           </div>
         </div>
       </header>
+
+      <!-- Sección de servicios -->
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Lo que hago">Servicios</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+              vero?
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card" data-card="UI/UX">
+              <div class="card-content z-index">
+                <img src="./img/design-icon.svg" class="icon" alt="" />
+                <h3 class="title-sm">Diseño WEB</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                  est suscipit itaque?
+                </p>
+                <a href="#" class="btn small">Ver más</a>
+              </div>
+            </div>
+
+            <div class="card" data-card="Code">
+              <div class="card-content z-index">
+                <img src="./img/code-icon.svg" class="icon" alt="" />
+                <h3 class="title-sm">Desarrollo WEB</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores suscipit nobis dolore?
+                </p>
+                <a href="#" class="btn small">Ver más</a>
+              </div>
+            </div>
+
+            <div class="card" data-card="App">
+              <div class="card-content z-index">
+                <img src="./img/app-icon.svg" class="icon" alt="" />
+                <h3 class="title-sm">Desarrollo de Apps</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum hic veniam nihil.
+                </p>
+                <a href="#" class="btn small">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de proyectos -->
+
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg"></div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Mis proyectos">Portafolio</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter button-group">
+              <button class="filter-btn active" data-filter="*">Todo</button>
+              <button class="filter-btn" data-filter=".ui">UI/UX</button>
+              <button class="filter-btn" data-filter=".webdev">WEB</button>
+              <button class="filter-btn" data-filter=".appdev">Apps</button>
+              <button class="filter-btn" data-filter=".logo-design">
+                Diseño
+              </button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño de Logo</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port2.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desarrollo WEB</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port4.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño UI / UX</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port6.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desarrollo de Apps</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port8.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desarrollo de Apps</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port9.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño WEB</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="more-folio">
+              <a href="#" class="btn">Mas proyectos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de contacto -->
+
+      <section class="contact" id="contact">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5499407704997!2d-76.53150722434957!3d3.458962251168651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a66bce1d282f%3A0x6083e7032572ab74!2sTorre%20de%20Cali%2C%20San%20Vicente%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1685288627915!5m2!1ses!2sco"
+          width="100%"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Ponte en contacto</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                rerum odio incidunt doslorum officia dolorem eaque aprim?
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Cali. Colombia</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">lorem@ipsum.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">123-456-789</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <h3 class="title">Contáctame</h3>
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Nombre" />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Apellido"
+                />
+              </div>
+
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Celular"
+                />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Mensaje"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Enviar</a>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">Hablemos de tu proyecto</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
+            culpa. Commodi suscipit animi officia dignissimos unde, ipsum fugiat
+            consequuntur, fugit ratione vel aperiam, similique distinctio
+            mollitia repellendus quasi rem vero!
+          </p>
+          <a href="https://wa.me/+573121234567" target="_blank" class="btn"
+            >WhatsApp</a
+          >
+        </div>
+      </section>
     </main>
 
     <!-- Sección pie de página -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">Acerca de</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              officiis quo officia quia?
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Servicios</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portafolio</a>
+              </li>
+              <li>
+                <a href="#about">Acerca de</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonios</a>
+              </li>
+              <li>
+                <a href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Servicios</h3>
+            <ul>
+              <li>
+                <a href="#">Diseño WEB</a>
+              </li>
+              <li>
+                <a href="#">Desarrollo WEB</a>
+              </li>
+              <li>
+                <a href="#">Diseño de Apps</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+              <li>
+                <a href="#">Diseño UI/UX</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Suscríbete</h3>
+            <p class="text">
+              Lorem ipsum dolor, sit amet ipsum dolor sit amet.
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 | Hecho por
+              <a href="#" class="split-text"> Mauricio Muñoz </a>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Sígueme</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
